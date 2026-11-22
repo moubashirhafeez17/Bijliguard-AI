@@ -1,0 +1,49 @@
+{
+  "theft": {
+    "source": "synthetic",
+    "cleaning": {
+      "rows_in": 9696,
+      "bad_dates_dropped": 0,
+      "duplicates_removed": 96,
+      "unrecognised_area_rows_dropped": 0,
+      "area_spellings_fixed": 255,
+      "invalid_units_set_missing": 23,
+      "missing_units_filled": 214,
+      "missing_temperature_filled": 139,
+      "missing_bill_filled": 92,
+      "previous_units_rebuilt": 201,
+      "rows_out": 9600
+    },
+    "validation": {
+      "passed": true,
+      "issues": [],
+      "rows": 9600,
+      "meters": 800,
+      "months": "2025-11 to 2026-10",
+      "suspicious_share": 0.0494
+    }
+  },
+  "transformer": {
+    "source": "synthetic",
+    "cleaning": {
+      "rows_in": 21708,
+      "bad_dates_dropped": 0,
+      "duplicates_removed": 108,
+      "unrecognised_area_rows_dropped": 0,
+      "area_spellings_fixed": 327,
+      "sensor_glitches_set_missing": 33,
+      "missing_sensor_values_filled": 719,
+      "rows_without_label_last_7_days": 840,
+      "rows_out": 21600
+    },
+    "validation": {
+      "passed": true,
+      "issues": [],
+      "rows": 21600,
+      "transformers": 120,
+      "dates": "2026-05-26 to 2026-11-21",
+      "failure_events": 188,
+      "positive_rate_7d": 0.06
+    }
+  }
+}
